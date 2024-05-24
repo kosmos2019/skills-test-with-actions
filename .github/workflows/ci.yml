@@ -34,3 +34,6 @@ jobs:
         with:
           name: remark-lint-report
           path: remark-lint-report.json
+
+      - name: display json content
+        run: cat remark-lint-report.json
